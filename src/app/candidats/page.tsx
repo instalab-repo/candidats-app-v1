@@ -1,3 +1,3 @@
 export default function Candidats() {
-  return <h1>Liste des candidats</h1>;
+  return <h1>Candidates List</h1>;
 }

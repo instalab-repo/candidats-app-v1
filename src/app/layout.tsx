@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Candidats App",
-  description: "Application de gestion des candidats",
+  description: "Candidate management application",
 };
 
 export default function RootLayout({
