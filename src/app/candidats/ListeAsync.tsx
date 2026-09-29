@@ -1,7 +1,6 @@
-"use client";
 import { getCandidats } from "@/lib/api";
 import CandidatsClient from "./CandidatsClient";
-import FoldingPanel from "../components/FoldingPanel";
+import FoldingPanel from "@/app/components/FoldingPanel";
 
 export default async function ListeAsync() {
   const candidats = await getCandidats();

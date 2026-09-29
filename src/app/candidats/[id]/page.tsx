@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getCandidatById } from "@/lib/api";
-import Back from "../../components/Back";
+import Back from "@/app/components/Back";
 
 export default async function CandidatDetail({
   params,
