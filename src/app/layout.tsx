@@ -1,3 +1,5 @@
+import Navbar from "./components/Navbar";
+
 export const metadata = {
   title: "Candidats App",
   description: "Candidate management application",
@@ -17,6 +19,7 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <Navbar />
         <main>{children}</main>
       </body>
     </html>
